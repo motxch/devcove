@@ -1,0 +1,204 @@
+/* src/components/Feed.css */
+.profile-picture {
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  border-radius: 50%;
+  margin-right: 16px;
+  }
+
+  /* src/components/Feed.css */
+/* Add or update styles for the Feed component */
+
+/* Container styles for the posts */
+.feed-container {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container on the page */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  /* Style for the individual post */
+  .post {
+    margin-bottom: 16px; /* Add margin between posts */
+    word-wrap: break-word;
+    list-style-type: none;
+    border-radius: 8px; /* Add rounded corners */
+    padding: 10px; /* Add padding inside the box */
+    list-style-type: none;
+    overflow-wrap: break-word;
+  }
+  
+  /* Style for the post input box */
+  .post-input {
+  width: 98.5%;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.post-input textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  resize: none;
+}
+.post-input button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+  
+.post-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+  }
+
+  .post-content {
+    flex-grow: 1;
+  }
+
+  .user-name {
+    font-weight: bold;
+  }
+
+
+.post-input button:hover {
+  background-color: #45a049;
+}
+
+.post img {
+  max-width: 100%; /* Ensure that the image doesn't overflow its container */
+  cursor: pointer;
+}
+
+.h2 {
+  text-align: center;
+}
+
+/* Add these styles to your feed.css or style section */
+
+.post {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+}
+
+.like-section button {
+  background: none;
+  border: none;
+  color: #4285f4;
+  cursor: pointer;
+}
+
+/* Add these styles to your feed.css or style section */
+
+.comments-list {
+  padding: 0;
+
+}
+
+.comment {
+  margin-top: 10px;
+  list-style-type: none;
+  align-items: flex-start;
+  display: flex;
+  
+}
+
+.comment-info {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: flex-start;
+}
+
+.comment-profile-picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment-username {
+  font-weight: bold;
+  margin: 0;
+}
+
+.comment-content {
+  margin: 0;
+}
+
+.comment-input {
+  margin-top: 10px;
+}
+
+.comment-input textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  resize: none;
+}
+
+.comment-input button {
+  background: #4285f4;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+/* Add or update styles for the Feed component */
+.post img {
+  border-radius: 8px; /* Add rounded corners to all images within posts */
+}
+
+/* Add or update styles for the Feed component */
+.image-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.image-modal img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.postStatus {
+  list-style-type: none;
+  text-align: center;
+}
